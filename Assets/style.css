@@ -10,6 +10,7 @@ main {
     display: flex;
     direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 h1 {
     display: flex;
@@ -31,11 +32,15 @@ header p {
 }
 
 .box {
-    display:inline-block;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     background-color: rgb(60, 62, 65));
     border: 2px dashed white;
     max-width: 100%;
     position: relative;
+    margin: 15px;
 }
 
 .h2box {
@@ -43,9 +48,9 @@ header p {
     border: white solid 2px;
     border-radius: 5px;
    position: absolute;
-   top: -20px;
-   margin: 0 150px;
-
+   top: -1.25rem;
+   display: flex;
+   flex-wrap: nowrap;
 }
 
 .prebox {
