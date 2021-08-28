@@ -1,5 +1,5 @@
 * {
-    background: rgba(112, 128, 144, 0.034);
+    background: rgb(60, 62, 65);
     margin: 0;
     padding: 0;
     color: rgb(229, 53, 235);
@@ -26,13 +26,13 @@ header p {
 
 .box {
     display:inline-block;
-    background-color: rgba(112, 128, 144, 0.397);
+    background-color: rgb(60, 62, 65));
     border: dashed white;
     width: 30%;
 }
 
 .rbox {
-    background-color: rgb(56, 55, 55);
+    background-color: rgb(60, 62, 65);
     border-color: white;
     border-radius: 25%;
     top: 0;
