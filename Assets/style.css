@@ -24,11 +24,6 @@ header p {
     padding: 20px 100px 20px 100px;
 }
 
-pre {
-    color: white;
-    font-family: monospace;
-}
-
 .box {
     display:inline-block;
     background-color: pink;
@@ -42,4 +37,10 @@ pre {
     border-radius: 25%;
     top: 0;
     left: 0;
+}
+
+.prebox {
+    color: white;
+    font-family: monospace;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
