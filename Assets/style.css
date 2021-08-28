@@ -33,7 +33,7 @@ header p {
 
 .h2box {
     background-color: rgb(60, 62, 65);
-    border: white solid;
+    border: white solid 2px;
     border-radius: 5px;
     top: 0;
     left: 0;
