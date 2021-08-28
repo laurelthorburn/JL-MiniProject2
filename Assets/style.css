@@ -29,14 +29,17 @@ header p {
     background-color: rgb(60, 62, 65));
     border: 2px dashed white;
     width: 30%;
+    position: relative;
 }
 
 .h2box {
     background-color: rgb(60, 62, 65);
     border: white solid 2px;
     border-radius: 5px;
-    top: 0;
-    left: 0;
+   position: absolute;
+   top: -20px;
+   margin: 0 150px;
+
 }
 
 .prebox {
@@ -45,4 +48,10 @@ header p {
     background: linear-gradient(to bottom, #74366b 0%, #9241879f 100%);
     border-radius: 10px;
     margin: 10px;
+}
+
+article p {
+    margin: 25px 10px 15px 10px;
+    display: flex;
+    justify-content: center;
 }
