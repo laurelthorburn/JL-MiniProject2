@@ -48,6 +48,7 @@ header p {
     background: linear-gradient(to bottom, #74366b 0%, #9241879f 100%);
     border-radius: 10px;
     margin: 10px;
+    padding: 5px;
 }
 
 article p {
