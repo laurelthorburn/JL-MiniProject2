@@ -22,11 +22,11 @@
     <h2 class ="h2box">Flexbox Row</h2>
     <p>Use these three properties to create a Flexbox row layout.</p>
     <pre class ="prebox">
-        .row {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+          }
 </pre>
 </article>
 
@@ -34,11 +34,10 @@
     <h2 class ="h2box">Flexbox Column</h2>
     <p>Use these three properties to create a Flexbox column layout.</p>
     <pre class ="prebox">
-        .row {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-        }
+        .column {
+            display: flex;
+            flex-direction: column
+          }
 </pre>
 </article>
 
@@ -46,11 +45,11 @@
     <h2 class ="h2box">CSS Grid Layout</h2>
     <p>Build a 12-column layout using CSS Grid.</p>
     <pre class ="prebox">
-        .row {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-        }
+        .grid {
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(12, 1fr);
+          }
 </pre>
 </article>
 
@@ -58,11 +57,12 @@
     <h2 class ="h2box">Linear Gradients</h2>
     <p>This will create a background linear gradient from top to bottom.</p>
     <pre class ="prebox">
-        .row {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-        }
+        .linear-gradient-background {
+            background-image: linear-gradient(
+              rgba(232, 102, 236, 0.3) 0%,
+              rgba(232, 102, 236, 0.6) 100%
+            );
+          }
 </pre>
 </article>
 
@@ -70,11 +70,15 @@
     <h2 class ="h2box">Box Transition Glow</h2>
     <p>Use transition and box shadows to glow on hover.</p>
     <pre class ="prebox">
-        .row {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-        }
+        .code-card .card-header {
+            border-radius: 8px;
+            transition: all 0.5s ease-in-out;
+          }
+           
+          .code-card:hover,
+          .code-card:hover .card-header {
+            box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+          }
 </pre>
 </article>
 
@@ -82,11 +86,11 @@
     <h2 class ="h2box">Overlay Card with Title</h2>
     <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
     <pre class ="prebox">
-        .row {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-        }
+        .card-header {
+            position: relative;
+            margin-top: -20px;
+          }
+           
 </pre>
 </article>
 
