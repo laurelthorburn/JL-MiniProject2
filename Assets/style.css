@@ -1,0 +1,40 @@
+* {
+    background-color: rgb(56, 55, 55);
+    margin: 0;
+    padding: 0;
+    color: rgb(229, 53, 235);
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p{
+    font-size: 16px;
+    color: rgb(229, 53, 235);
+}
+
+pre {
+    color: white;
+    font-family: monospace;
+}
+
+.box {
+    display:inline-block;
+    background-color: pink;
+    border: dashed white;
+    width: 30%;
+}
+
+.rbox {
+    background-color: rgb(56, 55, 55);
+    border-color: white;
+    border-radius: 25%;
+    top: 0;
+    left: 0;
+}
