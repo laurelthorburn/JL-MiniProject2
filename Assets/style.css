@@ -27,14 +27,14 @@ header p {
 .box {
     display:inline-block;
     background-color: rgb(60, 62, 65));
-    border: dashed white;
+    border: 2px dashed white;
     width: 30%;
 }
 
-.rbox {
+.h2box {
     background-color: rgb(60, 62, 65);
-    border-color: white;
-    border-radius: 25%;
+    border: white solid;
+    border-radius: 5px;
     top: 0;
     left: 0;
 }
